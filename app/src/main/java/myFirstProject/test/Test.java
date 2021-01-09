@@ -9,6 +9,7 @@ import java.time.temporal.Temporal;
 import java.time.temporal.TemporalAccessor;
 
 import myFirstProject.thread.Task;
+import myFirstProject.thread.ThreadPool;
 
 public class Test {
 	
@@ -17,6 +18,10 @@ public class Test {
 		//threadCreate();
 		
 		//datetime();
+		
+		ThreadPool threadPool = new ThreadPool();
+		threadPool.run();
+		
 		
 	}
 	
